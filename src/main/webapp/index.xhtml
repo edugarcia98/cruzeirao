@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+<meta charset="UTF-8" />
+</h:head>
+<h:body>
+
+<h:form id="formAluno">
+	<p:panelGrid columns="2">
+	 
+	 <p:outputLabel value="Matricula: "/>
+	 <p:inputText/>
+	 
+	 <p:outputLabel value="Nome: "/>
+         <p:inputText/>
+	 
+	 <p:outputLabel value="Curso: "/>
+	 <p:inputText/>
+	</p:panelGrid>
+	<p:commandButton value="Salvar"
+	                 update=":formAluno"  
+	/>
+</h:form>
+
+
+
+	
+</h:body>
+</html>
