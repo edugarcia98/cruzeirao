@@ -2,10 +2,9 @@ package sistema.service;
 
 import java.util.ArrayList;
 import java.util.List;
-import sistema.modelos.Aluno;
 
-public class AlunoService {
-
+public class TesteService {
+/*
 	private ArrayList <Aluno> alunos = new ArrayList<Aluno>();
 	
 	public AlunoService()
@@ -26,5 +25,5 @@ public class AlunoService {
 		
 	}
 	
-	
+*/
 }
